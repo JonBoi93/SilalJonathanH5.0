@@ -26,19 +26,13 @@ currentLength++;
 return currentLength;
 }
 }
-// sort method
-public void sort()
+// print method
+public void print()
 {
-for(int j = currentLength -1; j > 1; j--)
+for (int i = 0; i < currentLength; i++)
 {
-for (int i = 0; i < j; i++)
-{
-if (arr[i] > arr[i+1])
-{
-int tmp = arr[i];
-arr[i] = arr[i+1];
-arr[i+1] = tmp;
+System.out.print(arr[i] + " ");
 }
-}
+System.out.print("\n");
 }
 }
