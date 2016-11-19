@@ -14,3 +14,17 @@ listItem = sortList.add(randomNumber);
 }
 while (listItem >= 0);
 
+// print the list
+
+System.out.println("intital list");
+sortList.print();
+
+//sort the list
+System.out.println("sorting list...");
+sortList.sort();
+
+//print the sorted list
+System.out.println("sorted list");
+sortList.print();
+}
+}
